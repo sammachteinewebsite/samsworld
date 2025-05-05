@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Fragen und Antworten</title>
+    <link rel="stylesheet" href="faq.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <h1>Sam's Hopefully Aesthetic Website</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="me.html">About Me</a></li>
+                <li><a href="faq.html">Fragen & Antworten</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="faq-banner">
+        <h2>Fragen & Antworten</h2>
+    </div>
+
+    <div class="faq-container">
+        <div class="faq-item">
+            <button class="faq-question">Was ist der Zweck dieser Seite?</button>
+            <div class="faq-answer">Diese Seite ist ein persönliches Projekt voller Ästhetik, Spaß und Sam-Vibes ✨</div>
+        </div>
+        <div class="faq-item">
+            <button class="faq-question">Was ist dein aktueller Lieblingsdrink?</button>
+            <div class="faq-answer">Matcha Latte 💚</div>
+        </div>
+        <div class="faq-item">
+            <button class="faq-question">Was macht dein Hund Aaron am liebsten?</button>
+            <div class="faq-answer">Aaron liebt es, sich im Sommer in der Sonne zu legen 🐶</div>
+        </div>
+        <div class="faq-item">
+            <button class="faq-question">Welche Serie würdest du immer wieder schauen?</button>
+            <div class="faq-answer">'Desperate Housewives'</div>
+        </div>
+        <div class="faq-item">
+            <button class="faq-question">Was möchtest du unbedingt noch ausprobieren?</button>
+            <div class="faq-answer">Surfen</div>
+        </div>
+        <!-- Weitere Fragen hier -->
+        <div class="faq-item">
+            <button class="faq-question">Was ist deine Lieblingsbeschäftigung?</button>
+            <div class="faq-answer">mit Freunden raus gehen <3</div>
+        </div>
+        
+        
+        
+    </div>
+
+    <script>
+        const questions = document.querySelectorAll('.faq-question');
+        questions.forEach(question => {
+            question.addEventListener('click', () => {
+                question.classList.toggle('active');
+                const answer = question.nextElementSibling;
+                if (answer.style.display === "block") {
+                    answer.style.display = "none";
+                } else {
+                    answer.style.display = "block";
+                }
+            });
+        });
+    </script>
+
+</body>
+</html>
+
