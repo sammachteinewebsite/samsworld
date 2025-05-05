@@ -1,0 +1,440 @@
+/* style.css */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f8ff; /* Babyblau */
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    font-family: 'Cursive', sans-serif;
+    color: #add8e6; /* Babyblau */
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+    margin: 20px 0;
+}
+
+nav a {
+    font-family: 'Arial', sans-serif;
+    margin: 0 15px;
+    color: #006400; /* Dunkelgrün */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+header {
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.image-box {
+    text-align: center;
+    margin: 0 15px;
+}
+
+.image-box img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.image-box p {
+    font-size: 1.2rem;
+    color: #006400; /* Dunkelgrün */
+    margin-top: 10px;
+}
+
+section {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.about-content, .matcha-info, .monstera-info {
+    padding: 20px;
+}
+.info-boxes {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 700px;
+    margin: 40px auto;
+}
+
+.info-box {
+    background-color: #f0f8ff;
+    border-left: 4px solid darkgreen;
+    padding: 20px;
+    border-radius: 12px;
+    font-size: 1.1rem;
+    color: #2e4f3f;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    transition: transform 0.2s ease;
+}
+
+.info-box:hover {
+    transform: scale(1.02);
+}
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 30px;
+}
+
+.social-icon {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #2a4b3d;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    transition: transform 0.3s ease;
+}
+
+.social-icon:hover {
+    transform: scale(1.1);
+}
+
+.fab {
+    font-size: 2rem;
+}
+/* Allgemeine Styles für die Seite */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #2a4b3d;
+    padding: 10px 0;
+    text-align: center;
+    color: white;
+}
+
+header h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 2rem;
+    margin: 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #ff7043; /* Sanftes Orange für Hover-Effekt */
+}
+
+/* Grundlegendes Styling */
+body {
+    font-family: 'American Typewriter', serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+    color: #2a4b3d;
+}
+
+/* Header */
+header {
+    background-color: #2a4b3d;
+    padding: 20px 0;
+    text-align: center;
+    color: white;
+}
+
+header h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+/* Navigation */
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 10px 0;
+    margin: 0;
+    background-color: #2a4b3d;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+nav ul li a:hover {
+    color: #ff7043;
+}
+
+/* Moodboard-Zitat */
+.moodboard-quote {
+    text-align: center;
+    font-size: 1.3rem;
+    font-style: italic;
+    margin: 40px 20px 20px;
+    color: #4f6f54;
+}
+
+/* Farbpalette */
+.color-palette {
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+    gap: 15px;
+}
+
+.color {
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Bildbereich */
+.image-section {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin: 40px auto;
+    max-width: 800px;
+}
+
+.image-section img {
+    width: 200px;
+    height: auto;
+    border-radius: 15px;
+    object-fit: cover;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Spotify-Einbettung */
+.music-section {
+    text-align: center;
+    margin: 40px 20px;
+}
+
+.music-section iframe {
+    border-radius: 15px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+.gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding: 50px 20px;
+    background-color: #f8f9fa; /* sanftes Hellgrau, kann angepasst werden */
+}
+
+.image-box {
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.image-box img {
+    width: 220px;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.image-box:hover img {
+    transform: scale(1.05);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
+}
+
+.image-box p {
+    margin-top: 10px;
+    font-size: 1.1rem;
+    color: #2a4b3d;
+    font-family: 'Georgia', serif; /* kannst du gern anpassen! */
+}
+.gallery-section {
+    padding: 50px 20px;
+    background-color: #fefefe;
+}
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    justify-items: center;
+}
+
+.image-grid img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.image-grid img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
+}
+main ul {
+    list-style-type: disc;
+    padding-left: 2rem;
+    max-width: 600px;
+    margin: 2rem auto;
+    font-size: 1.1rem;
+    background-color: #f0f8ff;
+    padding: 1.5rem;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  main table {
+    width: 90%;
+    max-width: 800px;
+    margin: 2rem auto;
+    border-collapse: collapse;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    font-size: 1rem;
+  }
+  
+  main th, main td {
+    padding: 1rem;
+    border: 1px solid #e0e0e0;
+    background-color: #ffffff;
+  }
+  
+  main th {
+    background-color: #cde9ff;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  main tr:nth-child(even) td {
+    background-color: #f8faff;
+  }
+  main {
+    padding: 2rem;
+    font-family: 'Helvetica Neue', sans-serif;
+    color: #333;
+  }
+  .lebenslauf-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+    padding: 40px;
+    flex-wrap: wrap;
+}
+
+.lebenslauf-content {
+    max-width: 500px;
+    width: 100%;
+}
+
+.lebenslauf-content table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 1em;
+    background: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.lebenslauf-content th,
+.lebenslauf-content td {
+    padding: 12px 16px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+}
+
+.lebenslauf-content th {
+    background-color: #e0f0ff;
+    font-weight: bold;
+}
+
+.lebenslauf-img {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.lebenslauf-img img {
+    width: 120px;
+    border-radius: 10px;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+}
+
+.lebenslauf-img img:hover {
+    transform: scale(1.05);
+}
+
+@media (max-width: 768px) {
+    .lebenslauf-wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .lebenslauf-img {
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .lebenslauf-img img {
+        width: 100px;
+    }
+}
+   
